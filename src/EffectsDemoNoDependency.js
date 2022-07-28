@@ -4,6 +4,7 @@ function EffectsDemoNoDependency() {
   const titleRef = useRef();
   useEffect(() => {
     console.log("useEffect");
+    console.log("titleRef.current.value: " + titleRef.current.value)
     document.title = title;
   });
   const handleClick = () => setTitle(titleRef.current.value);
