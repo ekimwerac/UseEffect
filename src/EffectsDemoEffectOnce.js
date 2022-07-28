@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react';
 
-function EffectsDemoInfiniteLoop() {
+function EffectsDemoEffectOnce() {
     const [title, setTitle] = useState("default title");
     const titleRef = useRef();
     useEffect(() => {
@@ -22,4 +22,4 @@ function EffectsDemoInfiniteLoop() {
     );
   }
 
-  export default EffectsDemoInfiniteLoop;
+  export default EffectsDemoEffectOnce;
