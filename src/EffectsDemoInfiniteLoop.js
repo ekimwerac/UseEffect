@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 
 function EffectsDemoInfiniteLoop() {
     const [title, setTitle] = useState("default title");
@@ -23,4 +23,3 @@ function EffectsDemoInfiniteLoop() {
   }
 
   export default EffectsDemoInfiniteLoop;
-  
