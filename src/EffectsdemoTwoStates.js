@@ -5,7 +5,7 @@ function EffectsDemoTwoStates() {
     const titleRef = useRef();
     const [darkMode, setDarkMode] = useState(false);
     useEffect(() => {
-      console.log("useEffect");
+      console.log("useEffect: Setting Title");
       document.title = title;
     });
     console.log("render");
