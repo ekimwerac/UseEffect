@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 
 function EffectsDemoTwoStates() {
     const [title, setTitle] = useState("default title");
@@ -25,3 +25,4 @@ function EffectsDemoTwoStates() {
       </div>
     );
   }
+  export default EffectsDemoTwoStates;
