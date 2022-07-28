@@ -7,7 +7,7 @@ function EffectsDemoTwoStatesWithDependeny() {
     useEffect(() => {
       console.log("useEffect");
       document.title = title;
-    }, [title]);
+    },[title]);
     console.log("render");
     const handleClick = () => setTitle(titleRef.current.value);
     const handleCheckboxChange = () => setDarkMode((prev) => !prev);
