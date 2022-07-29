@@ -11,7 +11,7 @@ function EffectsDemoEffectOnce() {
       console.log("useEffect local storage");
       const persistedTitle = localStorage.getItem("title");
       setTitle(persistedTitle || []);
-    });
+    }, []);
     console.log("render");
     const handleClick = () => setTitle(titleRef.current.value);
     return (

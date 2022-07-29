@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import EffectsDemoInfiniteLoop from './EffectsDemoInfiniteLoop';
+import EffectsDemoEffectOnce from './EffectsDemoEffectOnce';
 
 function App() {
   return (
-    <EffectsDemoInfiniteLoop />
+    <EffectsDemoEffectOnce />
   );
 }
 
